@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="container">
+    <div class="grid">
+        <div class="jugador" id="x">
+            <h4 class="titulo">Victorias A: <span id="vX"></span></h4>
+            <img id="img1" class="img" src="imagenes/x.jpg" alt="x" draggable="true">
+            <img id="img2" class="img" src="imagenes/x.jpg" alt="x" draggable="true">
+            <img id="img3" class="img" src="imagenes/x.jpg" alt="x" draggable="true">
+        </div>
+        <div class="item">
+            <h4 class="titulo">Juego 3 en RAYA</h4>
+            <h3 class="tituloSecundario">¡¡CON DRAG AND DROP!!</h3>
+            <h4 class="tituloSecundario">Turno jugador:<img id="turno" src="imagenes/x.jpg" draggable="false"></h4>
+            <div class="tablero" id="tablero">
+                <div class="celda"></div>
+                <div class="celda"></div>
+                <div class="celda"></div>
+                <div class="celda"></div>
+                <div class="celda"></div>
+                <div class="celda"></div>
+                <div class="celda"></div>
+                <div class="celda"></div>
+                <div class="celda"></div>
+            </div>
+        </div>
+        <div id="o" class="jugador">
+            <h4 class="titulo">Victorias B: <span id="vO"></span></h4>
+            <h4></h4>
+            <img id="img4" class="img" src="imagenes/o.jpg" alt="o" draggable="true">
+            <img id="img5" class="img" src="imagenes/o.jpg" alt="o" draggable="true">
+            <img id="img6" class="img" src="imagenes/o.jpg" alt="o" draggable="true">
+        </div>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+
+</html>

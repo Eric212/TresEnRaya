@@ -1,0 +1,65 @@
+.grid {
+  padding: 5em;
+  align-items: center;
+  justify-items: center;
+}
+.item {
+  display: block;
+  width: max-content;
+  background-color: aquamarine;
+  padding: 2em 1em 1em 1em;
+}
+.jugador {
+  width: 65%;
+  background-color: aquamarine;
+  padding: 1em 0.25em 0.5em 0.5em;
+}
+.titulo {
+  text-align: center;
+  color: black;
+}
+.tablero {
+  display: grid;
+  grid-template-columns: repeat(3, 64px);
+  grid-template-rows: repeat(3, 64px);
+  gap: 0.5em;
+  justify-content: center;
+}
+.celda img{
+  margin: 0;
+  width:100%;
+  height:100%;
+}
+
+img {
+  display: block;
+  width: 35%;
+  height: 10%;
+  border-style: double;
+  border-color: black;
+  margin-top: 0.25em;
+}
+
+.celda {
+  border-style: double;
+  border-color: black;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    place-items: max-content;
+    justify-content: center
+}
+
+.tituloSecundario {
+  text-align: center;
+  color: black;
+}
+#turno {
+  width: 64px;
+  height: 64px;
+  border-style: double;
+  border-color: black;
+}
+.hide{
+  display:none;
+}
